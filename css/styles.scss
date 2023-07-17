@@ -119,6 +119,16 @@ select:focus {
 .custom-padding {
   padding-left: 20px;
   padding-right: 20px;
+
+  @media (min-width: 380px) and (max-width: 440px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  @media (min-width: 440px) and (max-width: 574px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 .relative {
@@ -297,6 +307,10 @@ select:focus {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
+}
+
+.section3padding {
+  padding-top:35.5px;
 }
 
 @media (min-width: 576px) {
